@@ -1,4 +1,8 @@
 extends CharacterBody2D
+class_name Player
+
+var states:Player_states = Player_states.new()
+var animations:Player_animations = Player_animations.new()
 
 @export_category("MOVEMENT")
 @export var gravity_scale = 2
